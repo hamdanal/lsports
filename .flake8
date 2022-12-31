@@ -1,0 +1,6 @@
+[flake8]
+max_line_length = 100
+extend-select = B950
+extend-ignore = E203, E501
+per-file-ignores =
+    lsports/_windows.py: E221, E402

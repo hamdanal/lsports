@@ -1,0 +1,47 @@
+{
+    // Version of the setting file.  Always 0.2
+    "version": "0.2",
+    // language - current active spelling language
+    "language": "en",
+    // words - list of words to be always considered correct
+    "words": [
+        "amba",
+        "cdrom",
+        "cfgmgr",
+        "devinst",
+        "devpkey",
+        "devprop",
+        "devpropguid",
+        "devpropid",
+        "devpropkey",
+        "devs",
+        "dics",
+        "digcf",
+        "direg",
+        "fmtid",
+        "ftdi",
+        "ftdibus",
+        "guids",
+        "hardwareid",
+        "hdevinfo",
+        "hwid",
+        "iokit",
+        "iousb",
+        "liechti",
+        "lpctstr",
+        "lsports",
+        "pguid",
+        "ptstr",
+        "raspi",
+        "spdrp",
+        "sysfs",
+        "wparam"
+    ],
+    // flagWords - list of words to be always considered incorrect
+    // This is useful for offensive words and common spelling errors.
+    // For example "hte" should be "the"
+    "flagWords": [
+        "hte",
+        "tge"
+    ]
+}
