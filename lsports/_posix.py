@@ -1,6 +1,6 @@
 # Originally sourced from pySerial. https://github.com/pyserial/pyserial
-# (C) 2011-2015 Chris Liechti <cliechti@gmx.net>
-# SPDX-License-Identifier:    BSD-3-Clause
+# (C) 2011-2015 Chris Liechti <cliechti@gmx.net> BSD-3-Clause
+# Modified by Ali Hamdan <ali.hamdan.dev@gmail.com> MIT License
 from __future__ import annotations
 
 import glob
