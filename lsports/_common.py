@@ -7,6 +7,7 @@ import glob
 import os
 import re
 from collections.abc import Container
+from typing import Any
 
 
 def _numsplit(text: str) -> list[str | int]:
@@ -53,12 +54,12 @@ class PortInfo:
         self.description = "n/a"
         self.hwid = "n/a"
         # USB specific data
-        self.vid: int | None = None
-        self.pid: int | None = None
+        self.vid: int | Any = None
+        self.pid: int | Any = None
         self.serial_number: str | None = None
         self.location: str | None = None
         self.manufacturer: str | None = None
-        self.product: str | None = None
+        self.product: str | Any = None
         self.interface: str | None = None
         # Linux specific data
         self.usb_device_path: str | None = None

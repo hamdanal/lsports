@@ -58,7 +58,7 @@ def sysfs_wrapper(device: str) -> PortInfo:
             info.usb_interface_path if num_if > 1 else info.usb_device_path
         )
         info.manufacturer = _readline_optional(info.usb_device_path, "manufacturer")
-        info.product = _readline_optional(info.usb_device_path, "product")
+        info.product = _readline_optional(info.usb_device_path, "product") or "n/a"
         info.interface = _readline_optional(info.usb_interface_path, "interface")
 
     if info.subsystem in ("usb", "usb-serial"):

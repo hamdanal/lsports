@@ -12,7 +12,7 @@ if sys.platform == "linux":  # Linux
     from lsports._linux import comports as comports
 
 elif sys.platform == "darwin":  # OS X
-    from lsports._osx import comports as comports
+    from lsports._macos import comports as comports
 
 elif sys.platform == "cygwin":  # Cygwin/win32
     # cygwin accepts /dev/com* in many contexts
