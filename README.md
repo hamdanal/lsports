@@ -3,7 +3,7 @@
 A simple Python 3.7+ module to list serial ports on Windows, Linux, and macOS.
 
 This is a modified version of `serial.tools.list_ports` from
-[pySerial](https://github.com/pyserial/pyserial) by Chris Liechti.
+[pySerial](https://github.com/pyserial/pyserial) ([license](licenses/pyserial_LICENSE)).
 
 The goal of this project is to integrate some fixes and improvements to the original *list_ports*
 functionality with a faster release cycle.
