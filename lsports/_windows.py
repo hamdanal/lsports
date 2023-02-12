@@ -458,6 +458,8 @@ def iterate_comports() -> Generator[PortInfo, None, None]:
                 0,
             ):
                 info.product = szBusReportedDeviceDesc.value
+            else:
+                info.product = "n/a"
 
             # Friendly name
             szFriendlyName = create_unicode_buffer(250)
