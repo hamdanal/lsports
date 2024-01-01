@@ -46,8 +46,8 @@ iokit.IORegistryEntryGetParentEntry.argtypes = (ctypes.c_void_p, ctypes.c_void_p
 iokit.IOServiceGetMatchingServices.restype = kern_return_t
 
 iokit.IORegistryEntryCreateCFProperty.argtypes = (
-    ctypes.c_void_p, ctypes.c_void_p, ctypes.c_void_p, ctypes.c_uint32  # fmt: skip
-)
+    ctypes.c_void_p, ctypes.c_void_p, ctypes.c_void_p, ctypes.c_uint32
+)  # fmt: skip
 iokit.IORegistryEntryCreateCFProperty.restype = ctypes.c_void_p
 
 iokit.IORegistryEntryGetPath.argtypes = (ctypes.c_void_p, ctypes.c_void_p, ctypes.c_void_p)
