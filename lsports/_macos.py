@@ -208,7 +208,7 @@ def location_to_string(location_id: int) -> str:
     while location_id & 0xF00000:
         if len(loc) > 1:
             loc.append(".")
-        loc.append(f"{(location_id >> 20) & 0xf}")
+        loc.append(f"{(location_id >> 20) & 0xF}")
         location_id <<= 4
     return "".join(loc)
 
